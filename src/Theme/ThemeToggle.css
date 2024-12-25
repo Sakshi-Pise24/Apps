@@ -1,0 +1,58 @@
+/* Global Theme Styles */
+.theme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Light Theme */
+  .light {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Dark Theme */
+  .dark {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  /* Button Styling */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .light button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .light button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark button {
+    background-color: #ff9800;
+    color: black;
+  }
+  
+  .dark button:hover {
+    background-color: #e68900;
+  }
+  
+  /* Paragraph Styling */
+  p {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
